@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff059;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container .content {
+  width: 60%;
+  height: 100%;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.container .content .logo {
+  width: 40%;
+}
+
+.container .content .info {
+  font-size: 68px;
+  font-weight: 700;
+  color: #313673;
+}
+
+.container .login {
+  width: 40%;
+  height: 100%;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 150px;
+
+  gap: 50px;
+}
+
+.container .login h2 {
+  color: #313673;
+  font-size: 50px;
+}
+
+.container .login .input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.container .login .input-group input {
+  border-width: 1px;
+  background-color: transparent;
+  border-color: #666666;
+  height: 75px;
+  border-radius: 16px;
+}
+
+.container .login .input-group label {
+  color: #333333;
+}
+.container .login a {
+  text-decoration: none;
+  color: #666666;
+  text-align: start;
+}
+
+.container .login .container-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .login .container-buttons label {
+  color: #333333;
+}
+
+.container .login .container-buttons button {
+  background-color: #313673;
+  color: #fff;
+  width: 120px;
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.container .login footer {
+  display: flex;
+}
